@@ -1,0 +1,66 @@
+.yellow {
+  background-color:#00ffff;
+  height: 100vh;
+
+}
+
+.header {
+  height: 150px;
+  background-color: blue;
+  margin-top: 20px;
+}
+
+.nav {
+  height: 80px;
+  background-color: green;
+}
+
+.content {
+  height:240px;
+  background-color: red;
+
+}
+
+.aside {
+  height: 240px;
+  background-color: turquoise;
+}
+
+.promo {
+  height:200px;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.footer {
+  height:100px;
+  background-color: black;
+}
+
+
+
+
+
+.green {
+  background-color: green;
+  height: 200px;
+}
+
+.red {
+  background-color: red;
+  height: 200px;
+}
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 768px) {
+  .red {
+    background-color: blue;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .green {
+    background-color: purple;
+  }
+}
